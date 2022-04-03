@@ -1,0 +1,13 @@
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.img-half{
+    width: 80%;
+    
+}
+.food_container{
+    display: flex;
+    margin-bottom: 100px;
+}
