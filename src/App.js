@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
+import Review from './Components/Review/Review';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
          <Navbar />
          <Routes>
          <Route path="/" element={<Home></Home>} />
+         <Route path="/reviews" element={<Review></Review>} />
+         <Route path="/*" element={<NotFound></NotFound>} ></Route>
 
          </Routes>
     </div>

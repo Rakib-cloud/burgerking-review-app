@@ -4,41 +4,41 @@
         "id" :1,
         "name":"abu sayem",
         "ratings":10,
-        "review":"It is awsome"
+        "reviewdetail":"It is awsome"
        
     },
     {
         "id" :2,
         "name":"mamun",
         "ratings":8,
-        "review":"It is not bad"
+        "reviewdetail":"It is not bad"
     },
     {
         "id" :3,
         "name":"Tamim",
         "ratings":3,
-        "review":"It is avarage"
+        "reviewdetail":"It is avarage"
         
     },
     {
         "id" :4,
         "name":"Bablu",
         "ratings":8,
-        "review":"It is good"
+        "reviewdetail":"It is good"
         
     },
     {
         "id" :5,
         "name":"Samia",
         "ratings":5,
-        "review":"It is bad"
+        "reviewdetail":"It is bad"
         
     },
     {
         "id" :6,
         "name":"Rakib",
         "ratings":4,
-        "review":"not good"
+        "reviewdetail":"It is bad"
         
     }
     

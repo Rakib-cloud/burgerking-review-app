@@ -8,6 +8,7 @@ const Home = () => {
               <h1>OH! YEA Burger</h1>
               <h1>I am the KING of BURGER</h1>
               <p>They actually get their name from Hamburg, Germany, home of a cut of beef called the Hamburg steak that eventually evolved into what we now consider hamburgers</p>
+               <button className='button'>Explore More..</button>
           </div>
 
           <div class="half-width">
