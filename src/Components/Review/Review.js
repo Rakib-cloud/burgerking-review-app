@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReviewDetail from '../ReviewDetail/ReviewDetail';
+import './Review.css'
 
 const Review = () => {
     const [reviews,SetReviews]=useState([]);
@@ -8,11 +9,16 @@ const Review = () => {
 
    },[])
     return (
-        <div>
-          
-            {
-                reviews.map(review=><ReviewDetail key={review.id} review={review}></ReviewDetail> )
-            }
+        <div >
+            <h1>Check who are review this food</h1>
+
+              <div className='container'>
+              {
+                reviews.map(review=><ReviewDetail  key={review.id} review={review}></ReviewDetail> )
+              }
+              </div>
+            
+           
         </div>
     );
 };
