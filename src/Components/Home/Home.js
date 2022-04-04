@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
-import HomeReview from '../HomeReview/HomeReview';
-import Review from '../Review/Review';
+
+import Homehook from '../HomeReviewHooks/Homehook';
+
 import './Home.css';
 
 const Home = () => {
@@ -22,7 +23,8 @@ const Home = () => {
          </div>
          <h1>Customer Review(3)</h1>
           {/* <Review></Review> */}
-          <HomeReview></HomeReview>
+          {/* <HomeReview></HomeReview> */}
+          <Homehook></Homehook>
           <Link to="/reviews" className="btn btn-primary">See all reviews</Link>
       </div>
     );

@@ -11,7 +11,7 @@ const ReviewDetail = (props) => {
                
         
            <div className='detail-card'>
-           <Card  style={{ width: '18rem' }}>
+           <Card  style={{ width: '18rem',border:'5px solid green' }}>
             <Card.Img  id='img'variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>Reviewer Name:{name}</Card.Title>
