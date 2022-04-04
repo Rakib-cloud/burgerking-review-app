@@ -1,12 +1,33 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
+import './ReviewDetail.css'
 
 const ReviewDetail = (props) => {
-    const {name,ratings,reviewdetail}=props.review;
+    const { name, ratings, reviewdetail, img } = props.review;
     return (
-        <div>
-            <h2>Name:{name}</h2>
-            <p>Ratings:{ratings}</p>
-            <h3>{reviewdetail}</h3>
+        
+        <div className='detail-container'>
+           
+               
+        
+           <div className='detail-card'>
+           <Card  style={{ width: '18rem' }}>
+            <Card.Img  id='img'variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>Reviewer Name:{name}</Card.Title>
+                    <Card.Text>
+                        {reviewdetail}
+                    </Card.Text>
+
+                    <Card.Text>
+                        Ratings:{ratings}
+                    </Card.Text>
+
+                </Card.Body>
+            </Card> 
+           </div>
+
+           
         </div>
     );
 };

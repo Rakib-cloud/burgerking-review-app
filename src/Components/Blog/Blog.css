@@ -1,0 +1,20 @@
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    font-size: 15px;
+    border-style: solid;
+    border-color: red;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 15px;
+}
+.blog-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+#contex h1{
+    color: goldenrod;
+}
+#contex p{
+    color: green;
+}

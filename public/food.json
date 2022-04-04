@@ -4,41 +4,47 @@
         "id" :1,
         "name":"abu sayem",
         "ratings":10,
-        "reviewdetail":"It is awsome"
+        "reviewdetail":"The meal as a whole came to $9.12, not including taxes and delivery fees. At $2.29, the burger cost less than what I usually pay for my morning coffee.",
+        "img":"https://www.pngarts.com/files/5/Cartoon-Avatar-PNG-Photo.png"
        
     },
     {
         "id" :2,
         "name":"mamun",
         "ratings":8,
-        "reviewdetail":"It is not bad"
+        "reviewdetail":"Unlike some other fast-food double cheeseburgers, it doesn't come with chopped onions and it has one slice of cheese, not two.",
+        "img":"https://www.kindpng.com/picc/m/41-415983_transparent-person-cartoon-png-man-profile-picture-cartoon.png"
     },
     {
         "id" :3,
         "name":"Tamim",
         "ratings":3,
-        "reviewdetail":"It is avarage"
+        "reviewdetail":"Right away, I tasted the thick beef patties. The burger had traveled a little more than 15 minutes from my local Burger King to my apartment, but the meat was still juicy and the cheese nicely melted.",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmBsGcsguV-q75FK0qOyfpdyVdDxgErxx2GUrGkmxCf9EBcWCoJ4sW0jVsqJ9pmLmt0Vk&usqp=CAU"
         
     },
     {
         "id" :4,
         "name":"Bablu",
         "ratings":8,
-        "reviewdetail":"It is good"
+        "reviewdetail":"Fries were spilling out of the carton and into the bag, but I wasn't complaining. An order of medium fries cost me $3.39. The fries were thick and had more potato than some other fast-food french fries I've tried.",
+        "img":"https://www.clipartkey.com/mpngs/m/118-1188761_avatar-cartoon-profile-picture-png.png"
         
     },
     {
         "id" :5,
         "name":"Samia",
         "ratings":5,
-        "reviewdetail":"It is bad"
+        "reviewdetail":"The burger was about the same price as the burgers from McDonald's and Burger King. The entire meal came to $8.27, not including taxes and fees.",
+        "img":"https://www.pngarts.com/files/5/Cartoon-Avatar-Transparent.png"
         
     },
     {
         "id" :6,
         "name":"Rakib",
         "ratings":4,
-        "reviewdetail":"It is bad"
+        "reviewdetail":"The burger was slightly more expensive than Burger King's version but had more toppings. It came with an extra slice of American cheese plus chopped onions, and it was still affordable.",
+        "img":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/00ce8e65663791.5afc1d2cb219d.jpg"
         
     }
     

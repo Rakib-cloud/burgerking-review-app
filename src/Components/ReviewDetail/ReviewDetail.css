@@ -1,0 +1,17 @@
+#img{
+    width: 50%;
+    margin-left: 50px;
+    border: 20px;
+    border-style: groove;
+}
+.detail-card{
+  
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:25px;
+        margin: 100px 50px;
+    
+}
+.detail-container{
+    display: grid;
+}

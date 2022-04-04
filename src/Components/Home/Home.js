@@ -19,7 +19,7 @@ const Home = () => {
               <img class="img-half" src="https://media.istockphoto.com/photos/homemade-cheese-smash-burger-picture-id618630648?k=20&m=618630648&s=612x612&w=0&h=g04p1-NSXvwS52y74cDgF483LkRpzyoOSwCaduo0mgA=" alt="" />
           </div>
          </div>
-         <h1>Customer Review</h1>
+         <h1>Customer Review(3)</h1>
           <Review></Review>
           <Link to="/reviews" className="btn btn-primary">See all reviews</Link>
       </div>
