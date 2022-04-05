@@ -1,6 +1,6 @@
 # Welcome to Food Reviewer App
 
-This Foodreviewer App live link [Create React App](https://github.com/facebook/create-react-app).
+This Foodreviewer App live link [Create React App](https://burger-kingreviewer.netlify.app/).
 
 ## Project Description
 
