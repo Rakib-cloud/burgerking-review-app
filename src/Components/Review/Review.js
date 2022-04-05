@@ -10,7 +10,7 @@ const Review = () => {
    },[])
     return (
         <div >
-            <h1>Check who are review this food</h1>
+            <h1 style={{color: "white"}}>Check who are review this food</h1>
 
               <div className='container'>
               {

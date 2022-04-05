@@ -18,18 +18,18 @@ const Dashboard = () => {
   return (
     <div className='chart-container'>
       <div className='chart'>
-        <h2>Investment VS Month Line Chart</h2>
+        <h2 style={{color: "white"}}>Investment VS Month Line Chart</h2>
         <LineChart width={400} height={400} data={chart}>
           <Line dataKey={'investment'}></Line>
           <XAxis dataKey={'month'}></XAxis>
           <YAxis></YAxis>
           <Tooltip />
         </LineChart>
-        <p>X Axis=month and Y Axis=investment</p>
+        <p style={{color: "white"}}>X Axis=month and Y Axis=investment</p>
       </div>
       
       <div className='chart'>
-        <h2>Sell vs Revenue Area chart</h2>
+        <h2 style={{color: "white"}}>Sell vs Revenue Area chart</h2>
         <AreaChart
           width={500}
           height={400}
@@ -43,7 +43,7 @@ const Dashboard = () => {
           <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
           <Tooltip />
         </AreaChart>
-        <p>X Axis=sell and Y Axis=revenue</p>
+        <p style={{color: "white"}}>X Axis=sell and Y Axis=revenue</p>
       </div>
     </div>
   );
